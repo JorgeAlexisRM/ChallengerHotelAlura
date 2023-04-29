@@ -5,13 +5,6 @@
 </p>
 
 ---
-##  Primeros Pasos:
-
-
-#### 🔹 Marca este proyecto con una ⭐
-#### 🔹 Sigue las orientaciones que tenemos en este repositorio. 📚
-#### 🔹 ¡Visita la página del desafío haciendo clic aquí! [Link do Challenge](https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura) 📃
-</br>
 
 ## 🖥️ Tecnologías Utilizadas:
 
@@ -30,39 +23,51 @@
 - setResizable(false): determina el tamaño de la ventana, y a través del parámetro <strong>false</strong>, la pantalla no se puede maximizar;
 - setLocationRelativeTo(null): determina la ubicación de la ventana, y a través del parámetro <strong>null</strong> la mantiene centrada en la pantalla.
 
-#### Para este desafío, concéntrate en la parte lógica y la conexión con la base de datos, después de completar el desafío, siéntete libre de agregar nuevas funciones y modificar la interfaz gráfica.
 ---
 
-## 🔍 ¡Analizando nuestro repositorio!
+## Conexion
 
-### Este es el repositorio base de nuestro proyecto, en el encontrarás:
-#### 🔹 src/views: carpeta con toda la interfaz gráfica de las pantallas necesarias para desarrollar el programa;
-#### 🔹 src/imagenes: carpeta con imágenes que puedes usar en tu proyecto. Siéntete libre de usar otros, si lo deseas;
-</br>
+### src/controller/Conexion.java:
 
-## ⬇️ Download
-
-### Cómo descargar:
-
-#### 🔹 Fork
-
-1 - Haz el <strong>fork</strong> del proyecto. En la parte superior derecha, al hacer clic en el icono se creará un repositorio del proyecto en tu cuenta personal de GitHub. </br>
+1 - Se crea la conexion por medio de un ComboPooledDataSource.</br>
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169404781-7df6355b-3a15-472a-8d8e-fdb84d91a7bd.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235278056-fdd57774-bb47-4c3d-9271-8fed33942366.png">
 </p>
 
-2 - Una vez que tengas el repositorio "forkado" en tu cuenta, comprueba si la URL de la página es la del repositorio de tu cuenta.
+2 - Se crea un metodo para recuperar la conexion con un try-catch por posibles problemas de conexion.</br>
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173256272-6dd3eaba-b52e-42ec-b307-17ed785f9110.png">
+<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279353-fb962480-7fb5-4dbe-a2ee-ca9694e66f35.png">
 </p>
 
-3 - Haz clic en la opción <strong>Code</strong>. Se mostrarán tres formas de instalar el repositorio en su máquina, y destacamos dos:
+## src/modelo
+
+### Objeto Huespedes
+
+1 - Creamos el objeto Huespedes que contrendra los atributos de nuestra tabla huespedes, asi como sus getters y setters. </br>
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173166461-e62d9704-98d5-4773-a60e-57d5729575ae.png">
-</p></br>
+<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279534-140d39e1-3b60-4f1b-936a-95b54cceccb3.png">
+</p>
+
+<p align="center" >
+<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279477-d44218be-b227-4a3c-8933-409811870f6e.png">
+</p>
+
+### Objeto Reservas
+
+1 - Creamos el objeto Reservas que contrendra los atributos de nuestra tabla huespedes, asi como sus getters y setters. </br>
+
+<p align="center" >
+<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279607-e889cc6d-445b-4198-92da-f93a4b98a64b.png">
+</p>
+
+<p align="center" >
+<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279641-337c994d-240f-43d5-b92b-0e1d6f34b4c4.png">
+</p>
+
+
 
 #### 🔹 Clonar o descargar el ZIP
 
