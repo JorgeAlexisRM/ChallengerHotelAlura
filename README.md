@@ -41,262 +41,160 @@
 <img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279353-fb962480-7fb5-4dbe-a2ee-ca9694e66f35.png">
 </p>
 
-## src/modelo
 
-### Objeto Huespedes
+# :hammer:Funcionalidades del proyecto
 
-1 - Creamos el objeto Huespedes que contrendra los atributos de nuestra tabla huespedes, asi como sus getters y setters. </br>
+## Login
+- Acceso a traves de usuario y contraseña
 
 <p align="center" >
-<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279534-140d39e1-3b60-4f1b-936a-95b54cceccb3.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235280770-dd94e9e8-4a92-445d-84e1-6d901273d23c.png">
 </p>
 
 <p align="center" >
-<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279477-d44218be-b227-4a3c-8933-409811870f6e.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235280785-5baad849-ad65-496d-88c7-436e17626195.png">
 </p>
 
-### Objeto Reservas
-
-1 - Creamos el objeto Reservas que contrendra los atributos de nuestra tabla huespedes, asi como sus getters y setters. </br>
+## Registro de Reservar
 
 <p align="center" >
-<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279607-e889cc6d-445b-4198-92da-f93a4b98a64b.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235280888-bdb13597-f8d8-453c-84f2-cfefbee9b37b.png">
+</p>
+
+### Sistema de Reservas
+- Seleccionamos la fecha de Entrada
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281004-ee241c7b-3060-4adb-9e4a-29a0c45793f3.png">
+</p>
+
+- Seleccionamos la fecha de Salida
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281019-993a7eb2-6fb0-4d54-a0cf-6e11bfd8f696.png">
+</p>
+
+- Se asigna el valor de la reserva en automatico
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281044-b0783a60-543c-4034-b3d6-efba5fe0b475.png">
+</p>
+
+- Seleccionamos el metodo de pago
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281049-f3396a45-96f3-4ee8-b672-29cd84b06754.png">
+</p>
+
+### Registro Huesped
+- Llenamos los campos de Nombre:
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281111-5a4eceaf-e67e-44bb-8755-a8af549baeb2.png">
+</p>
+
+- Apellido
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281133-138e40d1-305d-4c7b-bde8-a4e18755934b.png">
+</p>
+
+- Seleccionamos la fecha de nacimiento
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281158-e1229eec-5042-45ca-a4d3-d154b8457ee0.png">
+</p>
+
+- Seleccionamos la Nacionalidad
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281191-c5d8cb77-ca97-4298-9b99-5f6325f72e2c.png">
+</p>
+
+-  Ingresamos un numero de telefono
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281213-153a9b81-72cf-4d17-8986-d0648de77f47.png">
+</p>
+
+## Busqueda
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281248-6fee365a-3e59-455f-999f-3fb962cd7b41.png">
+</p>
+
+### Sistema de busqueda
+
+<p align="center" >
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281348-314d9a82-c1df-4f65-8f03-33105daaa2a7.png">
 </p>
 
 <p align="center" >
-<img width="300" heigth="300" src="https://user-images.githubusercontent.com/121999643/235279641-337c994d-240f-43d5-b92b-0e1d6f34b4c4.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281478-fac0eda2-54c3-493f-9662-4396fac39f16.png">
 </p>
 
-
-
-#### 🔹 Clonar o descargar el ZIP
-
-1 - Para clonar, simplemente copia el <em>url</em> resaltado en la imagen y ubicado justo debajo del HTTPS, crea una carpeta en tu computadora, abre el <em>cmd</em> o el <em>git bash</em> dentro de esa carpeta y luego ingresa el comando <strong>git clone</strong> y con el botón derecho del mouse dentro del terminal haz click en la opcion <strong>Paste</strong> para pegar el <em>url</em> y presiona <em>Enter</em>. 
+- Buscar por ID de Reserva
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173256523-79d38ee2-8668-435c-b31a-ac6ba78bb813.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281372-fd0cb0bf-00de-4fd6-9cbc-af1cb0c22b44.png">
 </p>
 
-2 - La segunda opción es descargar el código en un paquete <strong>"zipado"</strong> y extraer la carpeta a tu computadora.
-</br></br>
-
-## 📝 Eclipse
-
-### ¿Cómo importar mi proyecto a Eclipse?
-
-1 - Una vez dentro del Editor al lado izquierdo, haz clic en el <em>Files</em> que está en el menú en la parte superior, elige la opción <em>Open Projects from File System</em>.
+- Buscar por Apellido del Huesped
 
 <p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/173164237-1db32d79-2b35-433f-817c-ec3fa30899fc.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281499-7cd10551-8157-445c-baa5-4bdc64287530.png">
 </p>
 
-Luego haz click en <em>Directory</em> y ubica el directorio del proyecto "clonado" o "extraído" en tu computadora. Haz click en <em>Finish</em> para completar la importación.
+- Modificar Reserva
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173110215-f9451a5e-a9eb-4056-aec8-6eb3e3601e53.png">
-</p>
-
-2 - La segunda forma de importar es en <em>File</em> en la opción <em>Import</em>. O a través del <strong>Project Explorer</strong> haz clic en el campo vacío con el botón derecho del mouse y elijas la opción <strong>Import</strong>.
-
-<p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/173111357-2ec928ac-5a3d-4f7c-ba84-8906d84bfd08.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281538-b92fa4ee-41a1-4de5-956f-5cf32c83756c.png">
 </p>
 
 <p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/169431325-23a2e3cb-85a3-4298-8e60-64dfa58e2e6f.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281562-71883e99-b2f0-46a8-9a47-b5403663d080.png">
 </p>
-
-Si te decides por el <strong>Import</strong>, se abrirá la ventana correspondiente. Haz clic en la opción <em>Existing Projects Into Workspace</em> y en el botón <em>Next</em>.
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169431890-27f40955-27d8-4b4d-82df-d3507f85de6c.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281594-e294efb5-38ca-432d-8fc4-c9450c21c5e1.png">
 </p>
 
-Luego haz clic en el botón <em>Browse</em> y busca el proyecto en el directorio local.
+- Modificar Huesped
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169432246-a769555c-daf9-490e-a0c7-908f7e5de967.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281631-58d6b980-58d1-4d4b-a1a5-91dc1a3ac132.png">
 </p>
-
-## 📅 JCalendar
-
-Tras realizar la importación a tu editor, es necesario instalar la librería <strong>JCalendar</strong>, de lo contrário, el proyecto presentará un error y no será posible abrir la ventana de <strong>Reservas</strong>. </br>
-
-Para instalar, se necesita descargar el paquete a través de ese enlace: 
-🔹 [Link para el JCalendar](https://toedter.com/jcalendar/)
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169592420-7ea798d4-b7d2-4fd6-a03c-75f0fbc2e4bc.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281650-ea0b31c7-6ff4-4b90-b693-bc633cf42cb9.png">
 </p>
-
-El siguiente paso es extraer los archivos a una carpeta e importar los archivos desde la carpeta <strong>lib</strong> a una carpeta local e importar los archivos a Eclipse.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173167366-664a8876-a5c9-45d1-880d-650fbd6f8b07.png">     
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281676-a28221ec-effa-490e-9fd5-f9d83c233075.png">
 </p>
 
-Archivos de carpeta <strong>lib</strong>:
+- Eliminar Huesped
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173699122-00cc4055-2098-4bba-8d3b-3bd252013116.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235281971-0031bcea-77d3-4429-8fbc-5ba97b01c36f.png">
 </p>
-
-Haz click con el botón derecho encima del proyecto ubicado en el <strong>Package Explorer</strong>, elijas la opción <em>Build Path</em> y <em>Configure Build Path</em>.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173167991-44b111ca-c2d6-4d83-b225-33eb2657448f.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235282019-4f6ade58-0415-4a5c-85e3-6f6515274797.png">
 </p>
 
-El proyecto tendrá un mensaje de error que indica que la ruta de la biblioteca no existe en tu computadora. Haz click en <em>Libraries</em>, luego en <em>Classpath</em> seleccione el archivo JCalendar, elije la opción <em>Remove</em> y <em>Apply and Close</em>.
+- Eliminar Reserva
+- Nota: No se puede eliminar una reserva si el huesped sigue registrado, elimine primero al huesped
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173167817-ddbdedc5-c4a6-4f6d-bd86-f86a153d6b88.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235282073-0d929045-08d6-4fe7-a50c-d12ce9796edb.png">
 </p>
-
-Para importar el <strong>Jcalendar</strong> desde tu computadora, después de haber "extraído" los archivos de la descarga, pulsa en <em>ClassPath</em> y luego en <em>Add External JARS</em> agrega uno por uno  o selecciona todos de una vez y haz click en <em>Apply and Close</em>.
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169596029-a9fa21ef-8d90-45a6-8aa2-be2d911d4074.png">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/121999643/235282087-c8634a45-29f1-4ec0-89a5-309a86830a07.png">
 </p>
 
-Por lo tanto, el proyecto debe contener los siguientes archivos después de las importaciones:
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173695620-7a4893e9-b9a1-44d6-8b70-c94a85ea891e.png">
+<img width="600" heigth="600" src="">
 </p>
-
-
-## 🚧 Proyecto
-
-#### Al clonar o descargar el proyecto base y tener instalado el JCalendar, tendrás esta presentación al ejecutar el proyecto en Eclipse:
-
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/91544872/189419249-06b539da-7cf2-4d40-a711-618a5c872096.png">
-</p>
-
-### ⚠️ Descargué el proyecto pero los caracteres especiales no funcionan:
-
-Si tu proyecto tiene errores como los de la imagen, siga los pasos a continuación:
-
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/91544872/189419556-20b67f67-003c-47ac-a0ae-02cf814a6ccb.png">
-</p>
-
-Ve a <em>Window</em> y haz clic en <em>Preferences</em>.
-
-<p align="center" >
-     <img width="200" heigth="200" src="https://user-images.githubusercontent.com/101413385/173693126-8e2fec8b-91b1-4007-bbc5-010bb454f440.png">
-</p>
-
-Luego haz clic en <em>General</em> y en <em>Workspace</em>. Si tu <em>Text File Enconding</em> no está con el <strong>Default (UTF-8)</strong>, haz clic en <em>Other</em>, y eliges la opción <strong>UTF-8</strong>, y finaliza haciendo clic <em>Apply and Close</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173691963-1e3d966e-5162-4393-9232-d5d395d5440f.png">
-</p>
-
-## 📊 Base de Dados
-
-### ¿Cómo importar MySqlConnector al proyecto?
-
-Es la misma ruta descrita para importar el <strong>JCalendar</strong>, haga clic con el botón derecho en el proyecto, <em>Build Path</em>, <em>Configure Build Path</em>, <em>Libraries</em>, <em>Add External JARs</em>. Para encontrar la ruta de este archivo <strong>.jar</strong>, ve al disco duro de tu computadora e ingresa a la carpeta  <em>Archivos de Programas (x86)</em>.
-
-- Archivos de Programas (x86):
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173169394-a67b528a-c8b7-4f7a-b374-a1da81b1cc5d.png">
-</p>
-
-- MySQL
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173169551-b32a9978-3a05-4b6e-b077-f586d0c41e31.png">
-</p>
-
-- Connector J 8.0:
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173169584-48e21a03-e70f-4a65-9197-448a3645f526.png">
-</p>
-
-- My SQL Connector Java:
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173169737-5f93868e-df8f-4177-90ba-faf9570758ac.png">
-</p>
-
-### Modelado de tablas:
-
-Para este reto te proponemos dos tablas: <strong>Reservas</strong> y <strong>Huéspedes</strong>. La tabla de huéspedes debe contener la clave externa <em>(foreign key)</em> <strong>idReserva</strong>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169529338-09a4d4c2-1b5a-41dc-b305-38498ebc29a8.png">
-</p>
-
-
-## 🗔 Plugin WindowBuilder
-
-En el menú de <strong>Eclipse</strong>, ir a la pestaña <em>Help</em> y seleccione la opción <em>Eclipse Marketplace</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173254683-a4d27b04-3994-4c7b-bf70-6e1b665a5452.png">
-</p>
-
-En la barra de búsqueda, ingresa <strong>window builder</strong> y haz click en <em>Go</em>. Después de la búsqueda, selecciona la primera opción y haz click en <em>Install</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173254936-b1ed41ba-af1b-47ae-bf75-00de4a22ff19.png">
-</p>
-
-En la siguiente ventana, selecciona el botón <em>Confirm</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173255237-94789460-0544-4dd3-b00d-2738b83bd575.png">
-</p>
-
-Haz click en la opción para aceptar los Términos de Uso, y para finalizar haz clic en <em>Finish</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173255298-05ac80f1-3e93-4097-90af-7fc8a4fa1611.png">
-</p>
-
-Después de la instalación, será necesario reiniciar el <strong>Eclipse</strong>.
-
-### ¿Cómo abrir cada ventana de diseño?
-
-Una vez que completes el desafío, si quieres explorar el <em>Window Builder</em> y agregar nuevas ventanas, o cambiar el diseño de las existentes, haz clic en el archivo <strong>.java</strong>, y luego en <em>Open With</em> y finalmente en <em>Window Builder Editor</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173681973-5699a164-b66d-49f5-87c1-5436dd425457.png">
-</p>
-
-La pestaña de <em>Design</em> se abrirá por encima de la zona del <em>Console</em>. ¡Aquí puedes liberar al artista que llevas dentro de ti!
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173682648-4c371224-fe4b-4e57-a3ee-9298a4d44554.png">
-</p>
-
-## 📬 Entrega
-
-### ¿Cómo incluir mi proyecto con el "#" del desafío?
-
-1) Ten el <strong>Fork</strong> del proyecto en tu repositorio en Github.
-2) Utiliza el topico **challengeonehotelaluralatam4** </br>
-3) Ve a la pestaña derecha de tu proyecto y haz clic en el engranaje de configuración en la sección <em>About</em>, selecciona el campo **topics** e inserae la etiqueta **challengeonehotelaluralatam4**
-
-
-### ¿Cómo hago la entrega final de mi Proyecto?
-
-4) Rellena el siguiente formulario con tus datos personales, junto con el enlace de tu repositorio. 🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-esp-back-end)
-
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/91544872/218745016-7d4582b1-0a7a-4501-a2a5-2b57da523635.png">
-</p>
-
-5) Ve a tu correo electrónico y canjea tu insignia obtenida al completar otro desafío del Proyecto ONE! 🏆
-
-6) ¡No olvides poner un enlace o video de tu proyecto en Linkedin! Etiqueta a #Oracle y #AluraLatam 🏁
-
-🧡 <strong>Oracle</strong></br>
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
-💙 <strong>Alura Latam</strong></br>
-<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
